@@ -46,10 +46,12 @@ def user_form(request):
 def task_Data(request):
     if request.method == "POST":
         date = request.POST.get('date').strip()
+        user = request.user
         start_date = datetime.strptime(date, '%Y-%m-%d')
         end_date = start_date + timedelta(1)
         data_list = UserForm.objects.filter(
-                            form_submitted_at__range=(start_date, end_date))
+                            form_submitted_at__range=(start_date, end_date),
+                            user=user)
         return render(request, 'user_form/task_table.html', {
                                 'data_list': data_list})
     return render(request, 'user_form/task_list.html')

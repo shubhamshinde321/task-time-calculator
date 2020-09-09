@@ -364,3 +364,9 @@
 [09/Sep/2020 08:07:40] WARNING [django.request:224] Not Found: /favicon.ico
 [09/Sep/2020 08:07:40] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
 [09/Sep/2020 08:24:49] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 08:33:11] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 08:33:11] WARNING [django.request:224] Bad Request: /
+[09/Sep/2020 08:33:11] WARNING [django.server:157] "GET / HTTP/1.1" 400 143
+[09/Sep/2020 08:33:11] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 08:33:11] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 08:33:11] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 400 143
