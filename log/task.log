@@ -2,3 +2,205 @@
 [09/Sep/2020 07:10:35] WARNING [django.server:157] "GET / HTTP/1.1" 404 2135
 [09/Sep/2020 07:11:01] WARNING [django.request:224] Not Found: /favicon.ico
 [09/Sep/2020 07:11:01] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2186
+[09/Sep/2020 07:45:56] WARNING [django.request:224] Not Found: /
+[09/Sep/2020 07:45:56] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:46:06] WARNING [django.request:224] Not Found: /users
+[09/Sep/2020 07:46:13] WARNING [django.request:224] Not Found: /users/
+[09/Sep/2020 07:46:18] WARNING [django.request:224] Not Found: /login/
+[09/Sep/2020 07:46:23] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:46:23] WARNING [django.request:224] Not Found: /static/users/css/login.css
+[09/Sep/2020 07:46:23] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:46:23] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:46:23] WARNING [django.request:224] Not Found: /static/users/images/timer.png
+[09/Sep/2020 07:46:23] WARNING [django.request:224] Not Found: /static/users/images/19744.jpg
+[09/Sep/2020 07:46:56] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 07:47:00] WARNING [django.request:224] Not Found: /login/
+[09/Sep/2020 07:47:03] WARNING [django.request:224] Not Found: /login/
+[09/Sep/2020 07:47:16] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:47:16] WARNING [django.request:224] Not Found: /static/users/css/login.css
+[09/Sep/2020 07:47:16] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:47:16] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:47:16] WARNING [django.request:224] Not Found: /static/users/images/timer.png
+[09/Sep/2020 07:47:16] WARNING [django.request:224] Not Found: /static/users/images/19744.jpg
+[09/Sep/2020 07:48:26] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 07:48:26] WARNING [django.server:157] "GET /users/login/ HTTP/1.1" 404 2588
+[09/Sep/2020 07:49:22] WARNING [django.request:224] Not Found: /
+[09/Sep/2020 07:49:36] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:49:36] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:49:36] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:49:38] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:49:38] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:49:38] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:49:39] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:49:39] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:49:39] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:05] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:05] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:05] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:05] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:05] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:05] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:06] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:06] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:06] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:06] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:06] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:06] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:06] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:06] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:07] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:07] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:09] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:09] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:09] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:09] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:09] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:09] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:09] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:09] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:10] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:10] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2585
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:18] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:19] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/css/main.css
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/user_form/js/main.js
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /static/users/images/hamburger.png
+[09/Sep/2020 07:50:20] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:51:23] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:23] WARNING [django.request:224] Bad Request: /forms/task/
+[09/Sep/2020 07:51:25] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:25] WARNING [django.request:224] Bad Request: /forms/task/
+[09/Sep/2020 07:51:25] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:25] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 07:51:25] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:25] WARNING [django.request:224] Bad Request: /forms/task/
+[09/Sep/2020 07:51:25] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:25] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 07:51:28] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:28] WARNING [django.request:224] Bad Request: /login/
+[09/Sep/2020 07:51:28] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:28] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 07:51:29] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:29] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 07:51:31] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:31] WARNING [django.request:224] Bad Request: /users/login/
+[09/Sep/2020 07:51:31] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:31] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 07:51:57] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:57] WARNING [django.request:224] Bad Request: /
+[09/Sep/2020 07:51:57] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[09/Sep/2020 07:51:57] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 07:52:59] WARNING [django.request:224] Not Found: /
+[09/Sep/2020 07:53:00] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 08:01:13] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '0.0.0.0:5000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+[09/Sep/2020 08:01:13] WARNING [django.request:224] Bad Request: /
+[09/Sep/2020 08:01:13] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: '0.0.0.0:5000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+[09/Sep/2020 08:01:13] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 08:02:20] WARNING [django.request:224] Not Found: /
+[09/Sep/2020 08:02:20] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 08:02:25] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 08:02:25] WARNING [django.request:224] Not Found: /static/users/css/login.css
+[09/Sep/2020 08:02:25] WARNING [django.request:224] Not Found: /static/user_form/js/jquery-3.4.1.min.js
+[09/Sep/2020 08:02:25] WARNING [django.request:224] Not Found: /static/user_form/js/bootstrap.min.js
+[09/Sep/2020 08:02:25] WARNING [django.request:224] Not Found: /static/users/images/timer.png
+[09/Sep/2020 08:02:25] WARNING [django.request:224] Not Found: /static/users/images/19744.jpg
+[09/Sep/2020 08:02:37] WARNING [django.request:224] Not Found: /static/user_form/css/bootstrap.min.css
+[09/Sep/2020 08:02:37] WARNING [django.request:224] Not Found: /static/users/css/login.css
