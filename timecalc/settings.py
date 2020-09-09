@@ -28,9 +28,9 @@ if not os.path.exists(log_dir):
 SECRET_KEY = '^l%7earh@#4g(y@kq77pot+88sveke_^!8mire!%g+&+(91ci!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['task-calculator.herokuapp.com', '0.0.0.0', '127.0.0.1']
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -166,7 +167,7 @@ USE_L10N = True
 
 USE_TZ = False
 
-#Session Out
+# Session Out
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 
@@ -174,7 +175,7 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
