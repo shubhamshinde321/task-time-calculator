@@ -1,0 +1,32 @@
+<div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Task Name</th>
+                <th>Project Name</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Total Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if data_list %}
+                {% for data in data_list %}
+                <tr>
+                    <td>{{ data.id }}</td>
+                    <td>{{ data.task_name }}</td>
+                    <td>{{ data.project }}</td>
+                    <td>{{ data.start_time }}</td>
+                    <td>{{ data.end_time }}</td>
+                    <td>{{ data.total_time }}</td>
+                </tr>
+                {% endfor %}
+            {% else %}
+                <tr>
+                    <td>No Data Available</td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>

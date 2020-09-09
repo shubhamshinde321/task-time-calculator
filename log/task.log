@@ -1,0 +1,4 @@
+[09/Sep/2020 07:10:35] WARNING [django.request:224] Not Found: /
+[09/Sep/2020 07:10:35] WARNING [django.server:157] "GET / HTTP/1.1" 404 2135
+[09/Sep/2020 07:11:01] WARNING [django.request:224] Not Found: /favicon.ico
+[09/Sep/2020 07:11:01] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 404 2186

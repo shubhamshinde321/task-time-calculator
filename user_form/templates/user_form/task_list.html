@@ -1,0 +1,42 @@
+{% extends 'user_form/base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="form-group form-margin row">
+    <label class="col-sm-1 col-form-label">Select Date:</label>
+    <div class="col-sm-4">
+        <input type="date" name="selectedDate" onchange="dateSelected(event);" id="selectedDate">
+    </div>
+</div>
+
+<div class="data"></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        var today = new Date().toISOString().split('T')[0];
+        document.getElementsByName("selectedDate")[0].setAttribute('max', today);
+    });
+
+    function dateSelected(e){
+        var date = e.target.value
+        console.log(date)
+
+
+        $.ajax({
+            method: "POST",
+            url: "{% url 'user_form:task_list' %}",
+            data: {
+                date: date,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            }
+        })
+
+        .done(function (msg) {
+            $(".data").html(msg);
+        });
+    }
+</script>
+
+{% endblock %}

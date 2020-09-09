@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="{% static 'user_form/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'users/css/login.css' %}">
+    <style>
+    body{
+        background: url("{% static 'users/images/19744.jpg' %}");
+        background-size: cover;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="login-container">
+                <div class="login-left">
+                    <div class="lbox">
+                        <div class="clogo"><img src="{% static 'users/images/timer.png' %}" alt="Logo" style="width: 150px;">Task Calculator</div>
+                        <p>© {{year}} Task Calulator Ltd. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="login-right">
+                    
+                    <form class="form-signin" method='POST' autocomplete="off">
+                        {% csrf_token %}
+                        <h2 class="form-signin-heading">Login</h2>
+                        {% if messages %}
+                            {% for message in messages %}
+                                <div class="alert login-alert alert-{{ message.tags }}"> 
+                                {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                        <div class="group">
+                            <input type="text" name="username" id="username" required autocomplete="new-password">
+                            <label>User Name</label>
+                        </div>
+
+                        <div class="group">
+                            <input type="password" name="password" id="password" required autocomplete="new-password">
+                            <label>Password</label>
+                        </div>
+                        <div class="group submit_group">
+                            <button class="btn btn-lg btn-default btn-block" type="submit">Sign in</button>
+                        </div>
+                        <div class="text-center submit_group">OR</div>
+                        <div class="group submit_group">
+                            <a href="{% url 'users:signup' %}">
+                                <button class="btn btn-lg btn-default btn-block" type="button">Sign Up</button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="{% static 'user_form/js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'user_form/js/bootstrap.min.js' %}"></script>
+
+</body>
+
+</html>
