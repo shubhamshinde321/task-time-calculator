@@ -25,7 +25,7 @@ def signup(request):
                                                    password=password,
                                                    email=email)
                     messages.success(request, "User Registered Succcesfully")
-                    return redirect('user_form:task_form')
+                    return redirect('users:login')
                 else:
                     messages.warning(request, 'Password must match')
                     return redirect('users:signup')

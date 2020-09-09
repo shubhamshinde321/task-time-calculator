@@ -370,3 +370,36 @@
 [09/Sep/2020 08:33:11] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
 [09/Sep/2020 08:33:11] WARNING [django.request:224] Bad Request: /favicon.ico
 [09/Sep/2020 08:33:11] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 400 143
+[09/Sep/2020 09:05:35] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:05:35] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:05:37] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 09:05:37] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 09:05:37] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 400 143
+[09/Sep/2020 09:05:38] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 09:05:38] WARNING [django.request:224] Bad Request: /login/
+[09/Sep/2020 09:05:38] WARNING [django.server:157] "GET /login/ HTTP/1.1" 400 143
+[09/Sep/2020 09:05:38] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 09:05:38] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 09:05:38] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 400 143
+[09/Sep/2020 09:05:40] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 09:05:40] WARNING [django.request:224] Bad Request: /login/
+[09/Sep/2020 09:05:40] WARNING [django.server:157] "GET /login/ HTTP/1.1" 400 143
+[09/Sep/2020 09:05:40] ERROR [django.security.DisallowedHost:88] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[09/Sep/2020 09:05:40] WARNING [django.request:224] Bad Request: /favicon.ico
+[09/Sep/2020 09:05:40] WARNING [django.server:157] "GET /favicon.ico HTTP/1.1" 400 143
+[09/Sep/2020 09:06:06] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:06:06] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:06:29] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:06:29] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:07:05] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:07:05] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:07:39] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:07:39] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:07:41] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:07:41] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:07:42] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:07:42] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1311
+[09/Sep/2020 09:08:48] WARNING [django.request:224] Not Found: /users/login/
+[09/Sep/2020 09:08:48] WARNING [django.server:157] "GET /users/login/?next=/forms/task/ HTTP/1.1" 404 1307
+[09/Sep/2020 09:09:18] WARNING [django.request:224] Not Found: /log
+[09/Sep/2020 09:09:18] WARNING [django.server:157] "GET /log HTTP/1.1" 404 1307
